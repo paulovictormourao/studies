@@ -1,6 +1,6 @@
 /* Addition Of Two Terms With Scanner
 Author: Paulo Victor Mourão
-Last Modified on: 29/03/2023
+Last Modified on: 07/04/2023
  */
 
 import java.util.Scanner;
