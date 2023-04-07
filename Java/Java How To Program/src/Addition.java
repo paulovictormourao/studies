@@ -19,6 +19,6 @@ public class Addition {
 
         y = x1 + x2;
 
-        System.out.printf("The result is: %d", y);
+        System.out.printf("The result is: %d%n", y);
     }
 }
