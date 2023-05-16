@@ -19,22 +19,12 @@ public class Cryptography {
     }
 
     public int getEncrypt(){
-        int  aux, count = 0, pos = 1, encrypted = 0;
-
-        while (count < 4){
-            aux = num % 10 + 7;
-            aux %= 10;
-            encrypted = aux * pos + encrypted;
-            num /= 10;
-            pos *= 10;
-            count++;
-        }
-        count = 1;
-        num = encrypted;
+        int  aux, count = 1, pos = 1, encrypted = 0;
 
 
         while (count <= 4) {
-            aux = num % 10;
+            aux = num % 10 + 7;
+            aux %= 10;
 
             if (count == 1){
                 encrypted = aux * 100;
@@ -54,6 +44,34 @@ public class Cryptography {
             count++;
         }
         return encrypted;
+    }
+
+    public int decrypt(int code) {
+        int aux, count = 1, pos = 1, decrypted = 0;
+
+        while (count <= 4) {
+            aux = code % 10 - 7;
+
+            if (count == 1) {
+                decrypted += aux * 100;
+            }
+            else if (count == 2) {
+                decrypted += aux * 1000;
+            }
+            else if (count == 3) {
+                decrypted += aux;
+            }
+            else {
+                decrypted += aux * 10;
+            }
+
+            code /= 10;
+            pos *= 10;
+            count++;
+        }
+
+
+        return decrypted;
     }
 
 
