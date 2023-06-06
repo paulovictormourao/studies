@@ -1,4 +1,4 @@
-package GradeBook;
+package Chapter_7_GradeBook;
 import java.security.SecureRandom;
 
 public class TestGradeBook {

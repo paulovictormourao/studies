@@ -1,4 +1,4 @@
-package InstructionAssistedByComputer6_39;
+package Chapter_6_InstructionAssistedByComputer;
 
 import java.security.SecureRandom;
 import java.util.Scanner;

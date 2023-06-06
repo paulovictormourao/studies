@@ -1,4 +1,4 @@
-package heart_rate_calculator3_16;
+package Chapter_3_HeartRateCalculator;
 
 public class HeartRates {
     private String name, surname;

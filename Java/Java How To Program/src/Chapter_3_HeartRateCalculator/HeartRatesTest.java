@@ -1,4 +1,4 @@
-package heart_rate_calculator3_16;
+package Chapter_3_HeartRateCalculator;
 import java.util.Scanner;
 
 public class HeartRatesTest {

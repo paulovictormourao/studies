@@ -1,4 +1,4 @@
-package Cryptography4_38;
+package Chapter_4_Cryptography;
 
 public class Cryptography {
     private int num;

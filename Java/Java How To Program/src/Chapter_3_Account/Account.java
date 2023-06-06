@@ -1,4 +1,4 @@
-package Account__3_2;
+package Chapter_3_Account;
 
 
 public class Account {

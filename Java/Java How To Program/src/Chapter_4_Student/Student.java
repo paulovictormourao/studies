@@ -1,4 +1,4 @@
-package Student4_7;
+package Chapter_4_Student;
 
 public class Student {
 
