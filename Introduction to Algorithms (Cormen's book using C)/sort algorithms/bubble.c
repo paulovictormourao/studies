@@ -1,16 +1,15 @@
-#include <time.h>
 #include <stdio.h>
 
 
 
 int main (int argc, char** argv)
 {
+    char name[] = "worst200000.txt";
+    FILE *arquivo = fopen(name, "w");
     int i, j, aux, swap = 1, count = 1;
-    int size = 100;
+    int size = 200000;
     int list[size];
-    double start, finish, elapsed;
 
-    start = (double ) clock() / CLOCKS_PER_SEC;
 
     for (i = 0; i < size; i++){
         scanf("%d", &list[i]);
@@ -23,7 +22,7 @@ int main (int argc, char** argv)
 
         for( j = 0; j < size - i - 1; j++ ) {
 
-            if (list[j] > list[j + 1]) {
+            if (list[j] < list[j + 1]) {
                 swap = 1;
                 aux = list[j];
                 list[j] = list[j + 1];
@@ -33,16 +32,14 @@ int main (int argc, char** argv)
         }
     }
 
+    freopen(name, "w", stdout);
 
-    /*for (i = 0; i < size; i++)
+    for (i = 0; i < size; i++)
     {
-        printf("%d ", list[i]);
-    }*/
+        printf("\n%d ", list[i]);
+    }
 
-    finish = (double ) clock() / CLOCKS_PER_SEC;
-    elapsed = (double ) finish - start;
-
-    printf("\n %f s\n", elapsed);
+    fclose(arquivo);
 
     return 0;
 }
