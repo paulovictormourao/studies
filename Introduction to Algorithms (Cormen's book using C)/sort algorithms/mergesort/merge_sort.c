@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <time.h>
-
 
 void merge(int arr[], int left, int mid, int right) {
     int i, j, k;
@@ -53,30 +50,4 @@ void mergeSort(int arr[], int left, int right) {
 
         merge(arr, left, mid, right);
     }
-}
-
-int main() {
-    int size;
-    double start, finish, elapsed;
-
-    scanf("%d", &size);
-    int arr[size];
-
-
-
-    for (int i = 0; i < size; i++)
-        scanf("%d", &arr[i]);
-
-    start = (double) clock() / CLOCKS_PER_SEC;
-
-
-    mergeSort(arr, 0, size - 1);
-
-
-    finish = (double) clock() / CLOCKS_PER_SEC;
-    elapsed = (double) finish - start;
-
-    printf("%fs\n", elapsed);
-
-    return 0;
 }

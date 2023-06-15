@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h> // srand, rand
-#include <time.h> // time
 
 
 void troca(int vet[], int j, int i)
@@ -54,31 +51,4 @@ void quick_sort(int vet[], int inicio, int fim)
         quick_sort(vet, inicio, pivo_indice - 1);
         quick_sort(vet, pivo_indice + 1, fim);
     }
-}
-
-int main()
-{
-    int i, size;
-    scanf("%d", &size);
-
-    int vet[size];
-    double start, finish, elapsed;
-
-
-    for (i = 0; i < size; i++){
-        scanf("%d", &vet[i]);
-    }
-
-    start = (double) clock() / CLOCKS_PER_SEC;
-
-
-    quick_sort(vet, 0, size - 1);
-
-
-    finish = (double) clock() / CLOCKS_PER_SEC;
-    elapsed = (double) finish - start;
-
-    printf("%fs\n", elapsed);
-
-    return 0;
 }
