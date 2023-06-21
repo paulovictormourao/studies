@@ -15,15 +15,21 @@ public class Leitor {
     	return this.nomeLeitor;
     }
     
-    public void emprestarLivro(String titulo_do_livro, Autor autor)	{
-    	livrosEmprestados.add(new Livro(titulo_do_livro, autor));
+    public void emprestarLivro(Livro livroEmprestado)	{
+    	livrosEmprestados.add(livroEmprestado);
     }
     
-    public String exibirLista()	{
-    	String retorno = "Lista de Livros Emprestados:\n";
-    	for (int i = 0; i < this.livrosEmprestados.size(); i++)	{
-    		retorno += "Livro: "+this.livrosEmprestados.get(i).getTitulo();
-    	}
+    public String exibirLista() {
+        String retorno = "";
+
+        if (this.livrosEmprestados.size() > 0){
+            retorno = "\n        {Livros Emprestados}\n";
+
+            for (int i = 0; i < this.livrosEmprestados.size(); i++) {
+            retorno += "    " + this.livrosEmprestados.get(i).getTitulo() + "\n";
+            }
+        }
+
     	return retorno;
     }
      
