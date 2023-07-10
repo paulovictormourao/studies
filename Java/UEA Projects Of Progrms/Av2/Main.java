@@ -10,10 +10,10 @@ public class Main {
 		Garagem garagem = new Garagem();
 
 		// Exemplos
-		Carro l200 = new Carro("Mitsubishi", "L200", 2012);
+		Veiculo l200 = new Carro("Mitsubishi", "L200", 2012);
 		garagem.adicionarVeiculo(l200);
 
-		Carro saveiro = new Carro("Volkswagen", "Saveiro", 2022);
+		Veiculo saveiro = new Carro("Volkswagen", "Saveiro", 2022);
 		garagem.adicionarVeiculo(saveiro);
 
 		// Aplicativo
@@ -94,5 +94,6 @@ public class Main {
 		String modelo = input.nextLine();
 
 		garagem.removerVeiculo(marca, modelo);
+
 	}
 }

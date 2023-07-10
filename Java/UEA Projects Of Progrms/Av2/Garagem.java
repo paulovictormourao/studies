@@ -1,11 +1,11 @@
 package Av2;
 
 public class Garagem {
-	
+
 	private final Veiculo[] listaVeiculos = new Veiculo[100];
 
 
-	public void adicionarVeiculo(Veiculo veiculo)	{
+	public void adicionarVeiculo(Veiculo veiculo) {
 		for (int i = 0; i < listaVeiculos.length; i++){
 
 			if (listaVeiculos[i] == null){
@@ -14,8 +14,8 @@ public class Garagem {
 			}
 		}
 	}
-	
-	public void removerVeiculo(String marca, String modelo)	{
+
+	public void removerVeiculo(String marca, String modelo) {
 		boolean removed = false;
 
 		for (int i = 0; i < listaVeiculos.length; i++){
@@ -26,8 +26,22 @@ public class Garagem {
 
 					removed = true;
 
+					if (listaVeiculos[i] instanceof Moto) {
+						System.out.printf("A moto saiu da vaga %d\n", i + 1);
+
+					}
+
+					else if (listaVeiculos[i] instanceof Carro) {
+						System.out.printf("O carro saiu da vaga %d\n", i + 1);
+
+					}
+
+					else {
+						System.out.printf("O caminhao saiu da vaga %d\n", i + 1);
+					}
+
 					listaVeiculos[i] = null;
-					System.out.printf("O veiculo saiu da vaga %d\n", i + 1);
+
 				}
 			}
 		}
@@ -36,8 +50,8 @@ public class Garagem {
 			System.out.println("Veiculo não encontrado");
 		}
 	}
-	
-	public void listarVeiculos()	{
+
+	public void listarVeiculos() {
 		for (int i = 0; i < listaVeiculos.length; i++) {
 
 			if (listaVeiculos[i] != null) {
@@ -49,8 +63,8 @@ public class Garagem {
 			}
 		}
 	}
-	
-	public int quantidadeVeiculos()	{
+
+	public int quantidadeVeiculos() {
 		int num = 0;
 
 		for (Veiculo veiculo : listaVeiculos) {
@@ -58,7 +72,7 @@ public class Garagem {
 				num++;
 			}
 		}
-		
+
 		return num;
 	}
 }
