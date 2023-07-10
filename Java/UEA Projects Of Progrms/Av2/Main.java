@@ -64,19 +64,19 @@ public class Main {
 
 		switch (type){
 			case (1)-> {
-				Moto moto = new Moto(marca, modelo, ano);
+				Veiculo moto = new Moto(marca, modelo, ano);
 				garagem.adicionarVeiculo(moto);
 				System.out.println("A moto foi estacionado");
 			}
 
 			case (2)-> {
-				Carro carro = new Carro(marca, modelo, ano);
+				Veiculo carro = new Carro(marca, modelo, ano);
 				garagem.adicionarVeiculo(carro);
 				System.out.println("O carro foi estacionado");
 			}
 
 			case (3) -> {
-				Caminhao caminhao = new Caminhao(marca, modelo, ano);
+				Veiculo caminhao = new Caminhao(marca, modelo, ano);
 				garagem.adicionarVeiculo(caminhao);
 				System.out.println("O caminhao foi estacionado");
 			}
