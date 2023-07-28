@@ -1,10 +1,8 @@
-package Av3;
-
-import Av1.Livro;
+package av3.data;
 
 import java.util.ArrayList;
 
-public class Autor {
+public class Autor{
 
     private String nomeAutor, nacionalidadeAutor;
     private ArrayList<Livro> livros = new ArrayList<>();
@@ -38,17 +36,19 @@ public class Autor {
     }
     
     public String obterLivros()	{
-    	String retorno = "Lista de Livros:\n";
+    	StringBuilder retorno = new StringBuilder("Lista de Livros:\n");
     	for (int i = 0; i < this.livros.size(); i++)	{
-    		retorno += "Livro: "+this.livros.get(i).getTitulo() + "\n";
+    		retorno.append(i+1).append("] ").append(this.livros.get(i).getTitulo()).append("\n");
     	}
-    	return retorno;
+    	return retorno.toString();
     }
 
     @Override
     public String toString(){
-        return String.format("Author: %s\n" +
-                      "Nacionalidade %s\n" +
-                      "%s", getNomeAutor(), getNacionalidade(), obterLivros());
+        return String.format("""
+                Author: %s
+                Nacionalidade %s
+                %s
+                """, getNomeAutor(), getNacionalidade(), obterLivros());
     }
 }

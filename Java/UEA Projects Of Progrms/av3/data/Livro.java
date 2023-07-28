@@ -1,4 +1,4 @@
-package Av3;
+package av3.data;
 
 public class Livro {
     private String titulo;
@@ -38,7 +38,9 @@ public class Livro {
 
     @Override
     public String toString(){
-        return String.format("Título: %s\n" +
-                             "Autor: %s", getTitulo(), getAutor());
+        return String.format("""
+                Título: %s
+                Autor: %s
+                """, getTitulo(), getAutor());
     }
 }
