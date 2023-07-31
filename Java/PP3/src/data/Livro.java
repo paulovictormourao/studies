@@ -1,4 +1,4 @@
-package av3.data;
+package data;
 
 public class Livro {
     private String titulo;
@@ -41,6 +41,6 @@ public class Livro {
         return String.format("""
                 Título: %s
                 Autor: %s
-                """, getTitulo(), getAutor());
+                """, getTitulo(), getAutor().getNomeAutor());
     }
 }

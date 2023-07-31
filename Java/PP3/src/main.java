@@ -1,7 +1,5 @@
-package av3;
-
-import av3.business.ServicoLivro;
-import av3.data.*;
+import business.*;
+import data.*;
 
 import java.util.Scanner;
 
@@ -37,7 +35,9 @@ public class main {
 
 
         ServicoLivro servicoLivro = new ServicoLivro(listaDeLivros[0].getTitulo(), listaDeLivros[0].toString());
-        servicoLivro.servicoOpen(listaDeLivros[0].getTitulo(), listaDeLivros[0].toString());
+        //servicoLivro.servicoOpen(listaDeLivros[0].getTitulo(), listaDeLivros[0].toString());
+        servicoLivro.servicoAdd(listaDeLivros[0].getTitulo());
+
 
     }
 
