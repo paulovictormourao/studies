@@ -7,11 +7,12 @@ import java.util.Scanner;
 public abstract class Servicos {
     private String conteudo;
     private String nome;
+    private final String path;
 
     public Servicos(String nome, String conteudo) {
         this.nome = nome;
         this.conteudo = conteudo;
-
+        this.path = "D:\\Arquivos\\Desktop\\Repositórios\\studies-and-exercises\\Java\\PP3\\" + nome + ".txt";
 
     }
 
@@ -34,6 +35,8 @@ public abstract class Servicos {
     public abstract void servicoOpen(String nome, String conteudo);
 
     public abstract void servicoAdd(String nome);
+
+    public abstract void servicoRead(String nome);
 
     public void txtCreat(String nome, String conteudo) {
 
@@ -66,7 +69,6 @@ public abstract class Servicos {
     }
 
     public void addTxt(String nome, String conteudoAdicional){
-        String path = "D:\\Arquivos\\Desktop\\Repositórios\\studies-and-exercises\\Java\\PP3\\"+nome+".txt";
 
         try {
             FileWriter fileWriter = new FileWriter(path, true);
@@ -84,5 +86,25 @@ public abstract class Servicos {
         }
 
     }
-}
 
+    public void read(String nome){
+
+        try {
+
+            File file = new File(path);
+
+            Scanner input = new Scanner(file);
+
+            while (input.hasNextLine()) {
+                String line = input.nextLine();
+                System.out.println(line);
+            }
+
+            input.close();
+
+        } catch (FileNotFoundException e) {
+
+            System.err.println("Error file not found");
+        }
+    }
+}

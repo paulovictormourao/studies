@@ -1,15 +1,16 @@
 import business.*;
 import data.*;
+import user.*;
 
 import java.util.Scanner;
 
 public class main {
+
     public static void main(String[] args) {
         boolean looping = true;
         Autor[] listaDeAutores = new Autor[1000];
         Livro[] listaDeLivros = new Livro[1000];
         Editora[] listaDeEditoras = new Editora[1000];
-        Scanner input = new Scanner(System.in);
 
         // Exemplos
         listaDeAutores[0] = new Autor("J.R.R Tolkien", "Britânico");
@@ -33,16 +34,28 @@ public class main {
         addLivroEmAutorEditora(listaDeLivros[3], listaDeAutores[2], listaDeEditoras[2]);
         // Fim dos Exemplos
 
+        while (looping) {
+            System.out.println("Digite 1 para fazer um registro de Autor, Editora, ou Livro");
 
-        ServicoLivro servicoLivro = new ServicoLivro(listaDeLivros[0].getTitulo(), listaDeLivros[0].toString());
-        //servicoLivro.servicoOpen(listaDeLivros[0].getTitulo(), listaDeLivros[0].toString());
-        servicoLivro.servicoAdd(listaDeLivros[0].getTitulo());
+            int choice = Verifies.verify(4);
 
+            switch (choice) {
 
+                case (0) -> looping = false;
+
+                case (1) -> {
+                    int choice2 =  Verifies.verify(4);
+                    Registrar.registrar(choice2);
+                }
+            }
+        }
     }
 
-    public static void addLivroEmAutorEditora(Livro livro, Autor autor, Editora editora){
+    public static void addLivroEmAutorEditora(Livro livro, Autor autor, Editora editora) {
         autor.addLivros(livro);
         editora.addLivro(livro);
     }
+
+
+
 }

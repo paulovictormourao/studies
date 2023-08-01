@@ -11,8 +11,14 @@ public class ServicoLivro extends Servicos{
         super.txtCreat(nome, conteudo);
     }
 
+    @Override
     public void servicoAdd(String nome){
         super.addTxt(nome, super.addConteudoAdicional());
 
+    }
+
+    @Override
+    public void servicoRead(String nome){
+        super.read(nome);
     }
 }
