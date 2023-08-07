@@ -16,8 +16,9 @@ public class MenuPrincipal {
         Exemplos.exemplos(listaDeAutores, listaDeLivros, listaDeEditoras);
 
         while (looping) {
-            System.out.println("Digite 1 para exibir Autor, Editora, ou Livro registrados");
-            System.out.println("Digite 2 para fazer um registro de Autor, Editora, ou Livro");
+            System.out.println("Digite 1 para ir para o menu de exibição");
+            System.out.println("Digite 2 para ir para o menu de registro");
+            System.out.println("Digite 3 para ir para o menu de remoção");
             System.out.println("Digite 0 para sair");
 
 
@@ -31,7 +32,9 @@ public class MenuPrincipal {
 
                 case (2) -> Funcoes.registrar(listaDeAutores, listaDeLivros, listaDeEditoras);
 
+                case (3) -> Funcoes.remove(listaDeAutores, listaDeLivros, listaDeEditoras);
 
+                
             }
         }
     }

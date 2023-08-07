@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class Funcoes {
 
-    // Menu de registro
+    // Registro
     public static void registrar(ArrayList<Autor> listaDeAutores,
         ArrayList<Livro> listaDeLivros, ArrayList<Editora> listaDeEditoras){
 
@@ -84,7 +84,7 @@ public class Funcoes {
 
     }
 
-    // Menu de Exibição
+    // Exibição
     public static void exibir(ArrayList<Autor> listaDeAutores,
         ArrayList<Livro> listaDeLivros, ArrayList<Editora> listaDeEditoras){
 
@@ -105,6 +105,52 @@ public class Funcoes {
 
 
             case (0) -> { }
+        }
+    }
+
+    // Remove
+    public static void remove(ArrayList<Autor> listaDeAutores,
+               ArrayList<Livro> listaDeLivros, ArrayList<Editora> listaDeEditoras) {
+
+        System.out.println("1] Remover Autor");
+        System.out.println("2] Remover Editora");
+        System.out.println("3] Remover Livro");
+        System.out.println("0] Para Sair");
+
+        int choice = Verifies.verify(4);
+
+        switch (choice) {
+            case (1) -> {
+                for (int i = 0; i < listaDeAutores.size(); i++) {
+                    System.out.println(i +"] " + listaDeAutores.get(i).getNomeAutor());
+                }
+                System.out.println("\nSelecione o Numero do Autor");
+                int autorNum = Verifies.verify(listaDeAutores.size());
+                listaDeAutores.remove(autorNum);
+
+            }
+
+            case (2) ->{
+                for (int i = 0; i < listaDeEditoras.size(); i++) {
+                    System.out.println(i +"] " + listaDeEditoras.get(i).getNomeEditora());
+                }
+                System.out.println("\nSelecione o Numero da Editora");
+                int editoraNum = Verifies.verify(listaDeEditoras.size());
+                listaDeEditoras.remove(editoraNum);
+            }
+
+            case (3) ->{
+                for (int i = 0; i < listaDeLivros.size(); i++) {
+                    System.out.println(i +"] " + listaDeLivros.get(i).getTitulo());
+                }
+                System.out.println("\nSelecione o Numero do Livro");
+                int livroNum = Verifies.verify(listaDeLivros.size());
+                listaDeLivros.remove(livroNum);
+            }
+
+
+            case (0) -> {
+            }
         }
     }
 
