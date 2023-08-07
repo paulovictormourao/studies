@@ -32,33 +32,33 @@ public abstract class Servicos {
         return conteudo;
     }
 
-    public abstract void servicoOpen(String nome, String conteudo);
+    public abstract void servicoOpen();
 
-    public abstract void servicoAdd(String nome);
+    public abstract void servicoAdd();
 
-    public abstract void servicoRead(String nome);
+    public abstract void servicoRead();
 
-    public void txtCreat(String nome, String conteudo) {
+    public void txtCreat() {
+        if (!this.test())
+            try {
+                PrintWriter printWriter = new PrintWriter(new FileOutputStream(this.nome + ".txt"));
+                Formatter output = new Formatter(printWriter);
+                output.format(this.conteudo);
 
-        try {
-            PrintWriter printWriter = new PrintWriter(new FileOutputStream(nome + ".txt"));
-            Formatter output = new Formatter(printWriter);
-            output.format(conteudo);
+                output.close();
+                printWriter.close();
 
-            output.close();
-            printWriter.close();
+            }
 
-        }
+            catch (SecurityException securityException) {
+                System.err.println("Write permission denied. Terminating.");
+                System.exit(1);
+            }
 
-        catch (SecurityException securityException) {
-            System.err.println("Write permission denied. Terminating.");
-            System.exit(1);
-        }
-
-        catch (FileNotFoundException fileNotFoundException) {
-            System.err.println("Error opening file. Terminating.");
-            System.exit(1);
-        }
+            catch (FileNotFoundException fileNotFoundException) {
+                System.err.println("Error opening file. Terminating.");
+                System.exit(1);
+            }
 
     }
 
@@ -68,7 +68,7 @@ public abstract class Servicos {
         return input.nextLine();
     }
 
-    public void addTxt(String nome, String conteudoAdicional){
+    public void addTxt(String conteudoAdicional){
 
         try {
             FileWriter fileWriter = new FileWriter(path, true);
@@ -87,7 +87,7 @@ public abstract class Servicos {
 
     }
 
-    public void read(String nome){
+    public void read(){
 
         try {
 
@@ -102,9 +102,34 @@ public abstract class Servicos {
 
             input.close();
 
-        } catch (FileNotFoundException e) {
+        }
+        catch (FileNotFoundException e) {
 
             System.err.println("Error file not found");
         }
+    }
+
+    public boolean test(){
+
+        boolean test = false;
+
+        try {
+
+            File file = new File(path);
+
+            Scanner input = new Scanner(file);
+
+            while (input.hasNextLine()) {
+                String line = input.nextLine();
+            }
+
+            input.close();
+            test = true;
+
+        }
+        catch (FileNotFoundException e) {
+            System.out.println();
+        }
+        return test;
     }
 }

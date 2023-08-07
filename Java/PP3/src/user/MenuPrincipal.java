@@ -19,10 +19,11 @@ public class MenuPrincipal {
             System.out.println("Digite 1 para ir para o menu de exibição");
             System.out.println("Digite 2 para ir para o menu de registro");
             System.out.println("Digite 3 para ir para o menu de remoção");
+            System.out.println("Digite 4 para ir para o menu de servico");
             System.out.println("Digite 0 para sair");
 
 
-            int choice = Verifies.verify(4);
+            int choice = Verifies.verify(5);
 
             switch (choice) {
 
@@ -34,7 +35,9 @@ public class MenuPrincipal {
 
                 case (3) -> Funcoes.remove(listaDeAutores, listaDeLivros, listaDeEditoras);
 
-                
+                case (4) -> {
+                    Funcoes.servico(listaDeLivros, listaDeEditoras);
+                }
             }
         }
     }

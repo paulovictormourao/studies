@@ -154,9 +154,44 @@ public class Funcoes {
         }
     }
 
+    // Servico
+    public static void servico(ArrayList<Livro> listaDeLivros, ArrayList<Editora> listaDeEditoras){
+
+        System.out.println("1] Serviço Livro");
+        System.out.println("2] Serviço Editora");
+        System.out.println("0] Para Sair");
+
+        int choice = Verifies.verify(3);
+
+
+        switch (choice) {
+            case (0) -> {
+            }
+
+            case (1) ->{
+                for (int i = 0; i < listaDeLivros.size(); i++) {
+                    System.out.println(i +"] " + listaDeLivros.get(i).getTitulo());
+                }
+                System.out.println("\nSelecione o Numero do Livro");
+                int livroNum = Verifies.verify(listaDeLivros.size());
+                listaDeLivros.get(livroNum).servicoLivro();
+            }
+
+            case (2) -> {
+                for (int i = 0; i < listaDeEditoras.size(); i++) {
+                    System.out.println(i + "] " + listaDeEditoras.get(i).getNomeEditora());
+                }
+                System.out.println("\nSelecione o Numero da Editora");
+                int editoraNum = Verifies.verify(listaDeEditoras.size());
+
+            }
+        }
+    }
+
     public static void addLivroEmAutorEditora(Livro livro, Autor autor, Editora editora) {
         autor.addLivros(livro);
         editora.addLivro(livro);
     }
 
 }
+

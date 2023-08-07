@@ -1,5 +1,8 @@
 package data;
 
+import business.ServicoLivro;
+import user.Verifies;
+
 public class Livro {
     private String titulo;
     private Autor autor;
@@ -35,6 +38,33 @@ public class Livro {
         return editora;
     }
 
+    public void servicoLivro(){
+        ServicoLivro servico = new ServicoLivro(this.titulo, this.toString());
+        servico.servicoOpen();
+
+        System.out.println("Digite 1 para ler o livro");
+        System.out.println("Digite 2 para adicionar conteúdo");
+        System.out.println("Digite 0 para sair");
+
+        int choice = 0;
+
+        boolean looping = true;
+
+        while (looping) {
+
+            choice = Verifies.verify(3);
+
+            switch (choice) {
+
+                case (1) -> servico.servicoRead();
+
+                case (2) -> servico.servicoAdd();
+
+                case (0) -> looping = false;
+            }
+
+        }
+    }
 
     @Override
     public String toString(){
