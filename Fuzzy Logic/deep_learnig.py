@@ -26,6 +26,7 @@ y_test = yscaler.transform(y_test.reshape(-1,1))
 model = Sequential()
 model.add(Dense(units = 64, kernel_initializer = 'uniform',
 activation = 'relu', input_dim = 17))
+
 model.add(Dense(units = 16, kernel_initializer = 'uniform',
 activation = 'relu'))
 model.add(Dense(units = 1, kernel_initializer = 'uniform',
