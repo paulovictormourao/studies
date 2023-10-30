@@ -19,7 +19,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2712a1f-6376-43f7-859d-f13d1976d974" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PIFE_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,6 +254,7 @@
       <workItem from="1697813863627" duration="5836000" />
       <workItem from="1698086372625" duration="47000" />
       <workItem from="1698087378171" duration="4850000" />
+      <workItem from="1698634027680" duration="370000" />
     </task>
     <servers />
   </component>
