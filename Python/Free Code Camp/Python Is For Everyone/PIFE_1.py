@@ -73,7 +73,7 @@ def formatter(problems, show_result=False):
     return total
 
 
-def arithmetic_formatter(problems, show_result):
+def arithmetic_formatter(problems, show_result=False):
     problems_len = len(problems)
     # Exceptions:
     if problems_len > 5:
@@ -87,9 +87,10 @@ def arithmetic_formatter(problems, show_result):
     else:
         for problem in problems:
             if have_exception(problem):
-                print(have_exception(problem))
+                return have_exception(problem)
+
 
     return formatter(problems, show_result)
 
 
-print(arithmetic_formatter(["32 + 8", "1 - 3801", "9999 + 9999", "523 - 49"], False))
+print(arithmetic_formatter(['3 / 855', '3801 - 2', '45 + 43', '123 + 49']))
