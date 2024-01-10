@@ -16,7 +16,7 @@ def insertion(array):
     return array
 
 
-###########################################################################################
+#####################################################################################################
 
 # Selection sort
 
@@ -46,7 +46,7 @@ def selection(array):
 
     return new_array
 
-######################################################################
+#######################################################################################################
 
 # Bubble Sort
 
@@ -64,13 +64,59 @@ def bubble(array):
     return array
 
 
+#########################################################################################################
+
+# Quick Sort
+
+def quick(array):
+    if len(array) < 2:
+        return array
+    else:
+        pivot = array[0]
+
+        smallest = [i for i in array[1:] if i < pivot]
+        largest = [i for i in array[1:] if i > pivot]
+        return quick(smallest) + [pivot] + quick(largest)
+
+
+#########################################################################################################
+
+# Counting Sort
+
+def counting(array):
+    max_element = max(array) + 1
+    size = len(array)
+    output = [0] * size
+
+    count = [0] * max_element
+
+    for i in range(0, size):
+        count[array[i]] += 1
+
+    for j in range(1, 20):
+        count[j] += count[j-1]
+
+    k = size - 1
+    while k >= 0:
+        output[count[array[k]] - 1] = array[k]
+        count[array[k]] -= 1
+        k -= 1
+
+    for i in range(size):
+        array[i] = output[i]
+
+    return array
+
+
 def interface():
     choice = 1
     while choice != 0:
         choice = int(input('[0] EXIT\n'
                            '[1] INSERTION\n'
                            '[2] SELECTION\n'
-                           '[3] BUBBLE\n'))
+                           '[3] BUBBLE\n'
+                           '[4] QUICK\n'
+                           '[5] COUNTING\n'))
 
         test_array = [19, 7, 1, 2, 5, 8, 0]
 
@@ -83,6 +129,11 @@ def interface():
         elif choice == 3:
             print(bubble(test_array))
 
+        elif choice == 4:
+            print(quick(test_array))
+
+        elif choice == 5:
+            print(counting(test_array))
         else:
             continue
 

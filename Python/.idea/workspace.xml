@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b2712a1f-6376-43f7-859d-f13d1976d974" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Grokking Algorithms/breadth_first_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Grokking Algorithms/dijkstra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Grokking Algorithms/dynamic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Grokking Algorithms/recursive_sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Free Code Camp/Python Is For Everyone/PIFE_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/FreeCodeCamp/Python Is For Everyone/PIFE_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Free Code Camp/Python Is For Everyone/PIFE_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/FreeCodeCamp/Python Is For Everyone/PIFE_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Free Code Camp/Python Is For Everyone/PIFE_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/FreeCodeCamp/Python Is For Everyone/PIFE_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Free Code Camp/Python Is For Everyone/PIFE_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/FreeCodeCamp/Python Is For Everyone/PIFE_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Free Code Camp/Python Is For Everyone/PIFE_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/FreeCodeCamp/Python Is For Everyone/PIFE_5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grokking Algorithms/binary_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Grokking Algorithms/binary_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grokking Algorithms/sorting.py" beforeDir="false" afterPath="$PROJECT_DIR$/Grokking Algorithms/sorting.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="main.c (3)" />
+  </component>
+  <component name="ProjectId" id="2Q8EcTBIYNCPsgHqOAm1csxpHcs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Arquivos/Desktop/Repositórios/studies-and-exercises/Python/Free Code Camp/Data Analysis with Python/Pandas-Real-Life-Example/data&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Python&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Arquivos\Desktop\Repositórios\studies-and-exercises\Python\Nova pasta" />
+      <recent name="D:\Arquivos\Desktop\Repositórios\studies-and-exercises\Introduction to Algorithms (Cormen's book using C)" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Arquivos\Desktop\Repositórios\studies-and-exercises\Python\FreeCodeCamp\DataAnalysisWithPython\PandasRealLifeExample" />
+      <recent name="D:\Arquivos\Desktop\Repositórios\studies-and-exercises\Python\FreeCodeCamp\DataAnalysisWithPython\PandasRealLifeExample\DATA_DAWP_1" />
+      <recent name="D:\Arquivos\Desktop\Repositórios\studies-and-exercises\Python\Free Code Camp\Data Analysis with Python\Pandas-Real-Life-Example\data" />
+      <recent name="D:\Arquivos\Desktop\Repositórios\studies-and-exercises\Python\Free Code Camp\Data Analysis with Python\Pandas-Real-Life-Example" />
+      <recent name="D:\Arquivos\Desktop\Repositórios\studies-and-exercises\Python\Free Code Camp\Python Is For Everyone" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.dynamic">
+    <configuration name="binary_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Introduction to Algorithms (Cormen's book using C)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Grokking Algorithms" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Grokking Algorithms/binary_search.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="breadth_first_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Introduction to Algorithms (Cormen's book using C)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Grokking Algorithms" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\Arquivos\Desktop\Repositórios\studies-and-exercises\Python\Grokking Algorithms\breadth_first_search.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dijkstra" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Introduction to Algorithms (Cormen's book using C)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Grokking Algorithms" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Grokking Algorithms/dijkstra.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dynamic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Introduction to Algorithms (Cormen's book using C)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Grokking Algorithms" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Grokking Algorithms/dynamic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sorting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Introduction to Algorithms (Cormen's book using C)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Grokking Algorithms" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Grokking Algorithms/sorting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.dynamic" />
+        <item itemvalue="Python.dijkstra" />
+        <item itemvalue="Python.breadth_first_search" />
+        <item itemvalue="Python.sorting" />
+        <item itemvalue="Python.binary_search" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2712a1f-6376-43f7-859d-f13d1976d974" name="Changes" comment="" />
+      <created>1684726887497</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684726887497</updated>
+      <workItem from="1684726888467" duration="362000" />
+      <workItem from="1684729487438" duration="23809000" />
+      <workItem from="1685037928809" duration="2082000" />
+      <workItem from="1685040576935" duration="87000" />
+      <workItem from="1685059589434" duration="67000" />
+      <workItem from="1685203657170" duration="28000" />
+      <workItem from="1685304120071" duration="1101000" />
+      <workItem from="1685472980794" duration="2149000" />
+      <workItem from="1685632095078" duration="1786000" />
+      <workItem from="1686091495593" duration="1714000" />
+      <workItem from="1686093412146" duration="558000" />
+      <workItem from="1686284230841" duration="2548000" />
+      <workItem from="1686322099585" duration="834000" />
+      <workItem from="1686348401150" duration="8000" />
+      <workItem from="1686348536986" duration="5183000" />
+      <workItem from="1686501897696" duration="5464000" />
+      <workItem from="1686844052599" duration="5038000" />
+      <workItem from="1688412952103" duration="1060000" />
+      <workItem from="1688420480918" duration="1374000" />
+      <workItem from="1688515813968" duration="4251000" />
+      <workItem from="1688579088075" duration="12266000" />
+      <workItem from="1690380370625" duration="2555000" />
+      <workItem from="1690415506721" duration="2006000" />
+      <workItem from="1690471090449" duration="72000" />
+      <workItem from="1690492648445" duration="675000" />
+      <workItem from="1691448680373" duration="1000" />
+      <workItem from="1691633190467" duration="9820000" />
+      <workItem from="1693358080880" duration="4019000" />
+      <workItem from="1693542362433" duration="12000" />
+      <workItem from="1693542519248" duration="483000" />
+      <workItem from="1694183201146" duration="8750000" />
+      <workItem from="1696645634472" duration="3000" />
+      <workItem from="1697222949991" duration="753000" />
+      <workItem from="1697727288327" duration="3043000" />
+      <workItem from="1697730489759" duration="7107000" />
+      <workItem from="1697750847414" duration="14137000" />
+      <workItem from="1697813863627" duration="5836000" />
+      <workItem from="1698086372625" duration="47000" />
+      <workItem from="1698087378171" duration="4850000" />
+      <workItem from="1698634027680" duration="370000" />
+      <workItem from="1698636953300" duration="12900000" />
+      <workItem from="1698946229643" duration="29000" />
+      <workItem from="1698946363518" duration="13280000" />
+      <workItem from="1699397565965" duration="732000" />
+      <workItem from="1699577585261" duration="40000" />
+      <workItem from="1699577640793" duration="32559000" />
+      <workItem from="1700527107573" duration="25016000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Algorithms_And_Data_Structures$scratch.coverage" NAME="xml Coverage Results" MODIFIED="1698249447296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/Python$dijkstra.coverage" NAME="dijkstra Coverage Results" MODIFIED="1700859796941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Grokking Algorithms" />
+    <SUITE FILE_PATH="coverage/PIFE_2_py$PIFE_1.coverage" NAME="PIFE_1 Coverage Results" MODIFIED="1698816295145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIFE_2_py$sorting.coverage" NAME="sorting Coverage Results" MODIFIED="1698947159641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Grokking Algorithms" />
+    <SUITE FILE_PATH="coverage/PIFE_2_py$binary_search.coverage" NAME="binary_search Coverage Results" MODIFIED="1698858320304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Grokking Algorithms" />
+    <SUITE FILE_PATH="coverage/Algorithms_And_Data_Structures$scratch_1.coverage" NAME="scratch_1 Coverage Results" MODIFIED="1697771065164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/Algorithms_And_Data_Structures$json.coverage" NAME="json_test Coverage Results" MODIFIED="1698250216773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/PIFE_2_py$PIFE_4.coverage" NAME="PIFE_4 Coverage Results" MODIFIED="1699681553028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Free Code Camp" />
+    <SUITE FILE_PATH="coverage/Python$binary_search.coverage" NAME="binary_search Coverage Results" MODIFIED="1700529584960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Grokking Algorithms" />
+    <SUITE FILE_PATH="coverage/PIFE_2_py$PIFE_3.coverage" NAME="PIFE_3 Coverage Results" MODIFIED="1699671876470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Free Code Camp" />
+    <SUITE FILE_PATH="coverage/Algorithms_And_Data_Structures$PIFE_1.coverage" NAME="PIFE_1 Coverage Results" MODIFIED="1698094371080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python$recursive_sum.coverage" NAME="recursive_sum Coverage Results" MODIFIED="1700529543604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Grokking Algorithms" />
+    <SUITE FILE_PATH="coverage/PIFE_2_py$connection.coverage" NAME="connection Coverage Results" MODIFIED="1699583427271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IA Expert Academy/Course SQL" />
+    <SUITE FILE_PATH="coverage/PIFE_2_py$sql.coverage" NAME="sql Coverage Results" MODIFIED="1699583422730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PIFE_2_py$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1699063595305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/PIFE_2_py$The_5_Love_Languages.coverage" NAME="The_5_Love_Languages Coverage Results" MODIFIED="1698948574351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code Wars" />
+    <SUITE FILE_PATH="coverage/PIFE_2_py$PIFE_5.coverage" NAME="PIFE_5 Coverage Results" MODIFIED="1699766941076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Free Code Camp" />
+    <SUITE FILE_PATH="coverage/Python$graphs.coverage" NAME="graphs Coverage Results" MODIFIED="1700690216329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Grokking Algorithms" />
+    <SUITE FILE_PATH="coverage/PIFE_2_py$xml_test.coverage" NAME="xml_test Coverage Results" MODIFIED="1699682682705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/Python$sorting.coverage" NAME="sorting Coverage Results" MODIFIED="1700610589999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Grokking Algorithms" />
+    <SUITE FILE_PATH="coverage/PIFE_2_py$PIFE_2.coverage" NAME="PIFE_2 Coverage Results" MODIFIED="1698641619094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python$dynamic.coverage" NAME="dynamic Coverage Results" MODIFIED="1701039352846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Grokking Algorithms" />
+  </component>
+</project>
