@@ -1,0 +1,13 @@
+<h1>Menu</h1>
+
+<form action="/create-posts" method="GET">
+    <button type="submit">Create Post</button>
+</form>
+
+{{#each posts}}
+    <h1>{{title}}</h1>
+    <p>{{description}}</p>
+    <small>{{createdAt}}</small>
+    <a href="/delete/{{id}}"><button>delete</button></a>
+    <hr>
+{{/each}}
